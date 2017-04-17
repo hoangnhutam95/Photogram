@@ -1,6 +1,6 @@
 <nav>
 	<div class="nav-wrapper">
-		<a href="/" class="brand-logo"><%= fa_icon "instagram" %> | AniGram</a>
+		<a href="/" class="brand-logo"><%= fa_icon "instagram" %> | Photogram</a>
 		<% if logged_in? %>
 			<%= form_tag users_path, method: "get", class: "users-search" do %>
 				<%= text_field_tag :search, params[:search], class: "search-box", placeholder: "Search..." %>
